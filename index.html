@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshSqueeze | Premium Juice Blends</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+</head>
+<body>
+    <!-- Header -->
+    <a href="#home" class="back-to-top">
+        <span class="material-icons">arrow_upward</span>
+    </a>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">FreshSqueeze</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="material-icons">menu</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Fresh Orange Juice" class="active">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1536599424071-0b215a388ba7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Colorful Juice Bottles">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1551751299-1b51cab2694c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Fruit Juice Selection">
+        </div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>100% Natural Fresh Juices</h1>
+            <p>Experience the taste of nature with our premium, cold-pressed juice blends made from the freshest fruits and vegetables.</p>
+            <div class="btn-group">
+                <a href="#gallery" class="btn">Explore Flavors</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Story</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img" data-aos="fade-right">
+                    <img loading="lazy" src="./images/logo.png" alt="Our Juice Bar">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Fresh, Healthy & Delicious</h3>
+                    <p>Founded in 2015, FreshSqueeze began with a simple mission: to provide the freshest, most nutritious juices using locally sourced, organic ingredients. What started as a small juice bar has grown into a beloved brand known for its commitment to quality and taste.</p>
+                    <p>We believe that good health starts with what you put into your body. That's why we never use artificial additives, preservatives, or processed sugars in our products. Every bottle is packed with vitamins, minerals, and enzymes to fuel your body and delight your taste buds.</p>
+                    <div class="features">
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                            <span class="material-icons feature-icon">local_florist</span>
+                            <div>
+                                <h4>Organic Ingredients</h4>
+                                <p>Sourced from trusted local farmers</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                            <span class="material-icons feature-icon">bolt</span>
+                            <div>
+                                <h4>Cold-Pressed</h4>
+                                <p>Maximum nutrition retention</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                            <span class="material-icons feature-icon">eco</span>
+                            <div>
+                                <h4>Sustainable</h4>
+                                <p>Eco-friendly packaging</p>
+                            </div>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                            <span class="material-icons feature-icon">favorite</span>
+                            <div>
+                                <h4>Healthy</h4>
+                                <p>No added sugars or preservatives</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Our Products</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img loading="lazy" src="./images/sunApple.png" alt="Green Detox">
+                    <div class="gallery-overlay">
+                        <h3>Apple juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img loading="lazy" src="./images/sun10-Guava.png" alt="Watermelon Cooler">
+                    <div class="gallery-overlay">
+                        <h3>Guava juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img loading="lazy" src="./images/sunGuava.png" alt="Citrus Splash">
+                    <div class="gallery-overlay">
+                        <h3>Guava juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img loading="lazy" src="./images/sunMango.png" alt="Carrot Kick">
+                    <div class="gallery-overlay">
+                        <h3>Mango juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img loading="lazy" src="./images/sun10-Apple.png" alt="Watermelon Cooler">
+                    <div class="gallery-overlay">
+                        <h3>Apple juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img loading="lazy" src="./images/sunOrange.png" alt="Watermelon Cooler">
+                    <div class="gallery-overlay">
+                        <h3>Orange juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img loading="lazy" src="./images/sunCocktail.png" alt="Berry Boost">
+                    <div class="gallery-overlay">
+                        <h3>Cocktail juice</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img loading="lazy" src="./images/sun10-Cocktail.png" alt="Watermelon Cooler">
+                    <div class="gallery-overlay">
+                        <h3>Cocktail juice</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img loading="lazy" src="./images/sun10.png" alt="Tropical Blend">
+                    <div class="gallery-overlay">
+                        <h3>Mango juice</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+            <h2>Get In Touch</h2>
+        </div>
+        <div>
+            <div class="contact-content">
+                <aside class="contact-info" data-aos="fade-right" aria-label="Contact Information">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="material-icons contact-icon" aria-hidden="true">location_on</span>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>123 Juice Street, Beverage City, BC 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons contact-icon" aria-hidden="true">email</span>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:info@freshsqueeze.com">info@freshsqueeze.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons contact-icon" aria-hidden="true">call</span>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons contact-icon" aria-hidden="true">schedule</span>
+                            <div class="contact-text">
+                                <h4>Working Hours</h4>
+                                <p>
+                                    Monday - Friday: 9am - 7pm<br>
+                                    Saturday: 10am - 5pm<br>
+                                    Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Follow Us</h3>
+                    <nav class="social-links" aria-label="Social Media Links">
+                        <a href="#" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon" width="24" height="24" aria-hidden="true">
+                                <path fill="#1877F2" d="M22 12.07C22 6.48 17.52 2 12 2S2 6.48 2 12.07c0 4.99 3.66 9.13 8.44 9.93v-7.03H7.9v-2.9h2.54V9.5c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.45h-1.25c-1.23 0-1.61.77-1.61 1.56v1.87h2.74l-.44 2.9h-2.3v7.03C18.34 21.2 22 17.06 22 12.07z"/>
+                                <path fill="#fff" d="M15.11 15.14l.44-2.9h-2.74v-1.87c0-.79.38-1.56 1.61-1.56h1.25v-2.45s-1.14-.2-2.23-.2c-2.28 0-3.77 1.39-3.77 3.89v1.73h-2.54v2.9h2.54v7.03h2.9v-7.03h2.3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon" width="24" height="24" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="insta-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#feda75"/>
+                                    <stop offset="20%" stop-color="#fa7e1e"/>
+                                    <stop offset="40%" stop-color="#d62976"/>
+                                    <stop offset="60%" stop-color="#962fbf"/>
+                                    <stop offset="80%" stop-color="#4f5bd5"/>
+                                </linearGradient>
+                            </defs>
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="url(#insta-gradient)"/>
+                            <rect x="6" y="6" width="12" height="12" rx="3" ry="3" fill="#fff"/>
+                            <circle cx="12" cy="12" r="4" fill="url(#insta-gradient)"/>
+                            <circle cx="18" cy="6" r="1.5" fill="url(#insta-gradient)"/>
+                            </svg>
+                        </a>
+
+
+                        <a href="#" class="social-link" aria-label="Twitter" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon" width="24" height="24" aria-hidden="true">
+                                <path fill="#1DA1F2" d="M22.46 6c-.77.35-1.6.58-2.46.69a4.29 4.29 0 001.88-2.37 8.6 8.6 0 01-2.72 1.04 4.28 4.28 0 00-7.3 3.9 12.17 12.17 0 01-8.84-4.49 4.28 4.28 0 001.32 5.7 4.26 4.26 0 01-1.94-.54v.05a4.29 4.29 0 003.43 4.2 4.3 4.3 0 01-1.93.07 4.29 4.29 0 004 2.97 8.6 8.6 0 01-5.3 1.82c-.34 0-.67-.02-1-.06a12.1 12.1 0 006.56 1.92c7.88 0 12.2-6.53 12.2-12.2 0-.18-.01-.36-.02-.54A8.72 8.72 0 0022.46 6z"/>
+                            </svg>
+                        </a>
+                    
+                        <a href="#" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="social-icon" width="24" height="24" aria-hidden="true">
+                                <path fill="#0077B5" d="M4.98 3.5a2.5 2.5 0 11.001 5.001A2.5 2.5 0 014.98 3.5zm.02 7.5H2v10h3v-10zm7.5 0h-3v10h3v-5.5a2.5 2.5 0 115 0V21h3v-6a5.5 5.5 0 00-5.5-5.5z"/>
+                            </svg>
+                        </a>
+                    </nav>
+                </aside>
+                <div class="map" data-aos="fade-up" aria-label="Location map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215573291865!2d-73.9878449241641!3d40.74844097138945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1629780000000!5m2!1sen!2sus"allowfullscreen=""loading="lazy"referrerpolicy="no-referrer-when-downgrade"title="Google Map - Empire State Building"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="100">
+                    <h3>FreshSqueeze</h3>
+                    <p>Providing fresh, healthy and delicious juices since 2015. Our mission is to make healthy living accessible and enjoyable for everyone.</p>
+                </div>
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Fruit Juices</a></li>
+                        <li><a href="#">Vegetable Juices</a></li>
+                        <li><a href="#">Detox Cleanses</a></li>
+                        <li><a href="#">Smoothies</a></li>
+                        <li><a href="#">Seasonal Specials</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 FreshSqueeze. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay - Add this at the top of your body -->
+    <div class="juice-loader-overlay">
+        <div class="juice-loader-container">
+            <div class="splash"></div>
+            <div class="juice-glass">
+            <div class="juice"></div>
+                <div class="bubbles">
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                    <div class="bubble"></div>
+                </div>
+            </div>
+            <div class="fruits">
+                <i class="fas fa-lemon fruit"></i>
+                <i class="fas fa-apple-alt fruit"></i>
+                <i class="fas fa-strawberry fruit"></i>
+            </div>
+            <div class="loading-text">Juicing Up</div>
+                <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
